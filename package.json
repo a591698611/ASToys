@@ -1,0 +1,22 @@
+{
+  "name": "ASToys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "j": "jscodeshift -t transform/a.js src/a.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a591698611/ASToys.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a591698611/ASToys/issues"
+  },
+  "homepage": "https://github.com/a591698611/ASToys#readme",
+  "dependencies": {
+    "jscodeshift": "^0.6.2"
+  }
+}
