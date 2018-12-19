@@ -7,10 +7,11 @@ function transformer(file, api) {
       .find(j.Identifier, {name: 'finished'})
 
       .filter(p => {
+        const node = p.parent.node;
         return (
-          p.parent.node.type === 'Property' &&
-          p.parent.node.key.type === 'Identifier' &&
-          p.parent.node.key.name === 'finished'
+          node.type === 'Property' &&
+          node.key.type === 'Identifier' &&
+          node.key.name === 'finished'
         )
       })
 

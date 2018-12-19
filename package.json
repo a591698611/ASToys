@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "j": "jscodeshift -t transform/a.js src/a.js"
+    "j1": "jscodeshift -t transform/transform1.js src/src1.js",
+    "j2": "jscodeshift -t transform/transform2.js src/src2.js",
+    "j3": "jscodeshift -t transform/transform3.js src/src3.js"
   },
   "repository": {
     "type": "git",
