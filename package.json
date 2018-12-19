@@ -1,18 +1,18 @@
 {
   "name": "ASToys",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "ASToys",
   "scripts": {
     "j1": "jscodeshift -t transform/transform1.js src/src1.js",
     "j2": "jscodeshift -t transform/transform2.js src/src2.js",
-    "j3": "jscodeshift -t transform/transform3.js src/src3.js"
+    "j3": "jscodeshift -t transform/transform3.js src/src3.js",
+    "j4": "jscodeshift -t transform/transform4.js src/src4.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/a591698611/ASToys.git"
   },
-  "author": "",
+  "author": "Shen",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/a591698611/ASToys/issues"
